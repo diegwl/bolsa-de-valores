@@ -6,7 +6,7 @@ type Order struct {
 	Asset         *Asset
 	Shares        int
 	PendingShares int
-	Price         (float64)
+	Price         float64
 	OrderType     string
 	Status        string
 	Transactions  []*Transaction
